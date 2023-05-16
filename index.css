@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #1c1b21;
+	color: #FAFAFA;
+	font-size: 55px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+	border: 10px solid #6c38cc;
+	display: flex;
+	flex-flow: row wrap;
+	/* justify-content: right; */
+}
+
+.item {
+	background: #232228;
+	border: 1px solid #6c38cc;
+	/* text-align: center; */
+	padding: 10px;
+	width: 2em;
+	align-content: flex-end;
+	/* width: calc(100% / 3); */
+}
+
+
+/* 
+.item4 {
+	order: 2;
+}
+
+.item7 {
+	order: 3;
+}
+
+.item9 {
+	order: -1;
+} */
